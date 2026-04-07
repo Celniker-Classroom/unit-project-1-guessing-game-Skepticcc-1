@@ -125,12 +125,10 @@ function giveUp() {
 function updateScore(score) {
     scores.push(score);
     scores.sort((a, b) => a - b);
-    if (score !== currentRange) { // Only increment wins if not give up
-        wins++;
-        totalGuesses += score;
-        document.getElementById('wins').textContent = `Total wins: ${wins}`;
-        document.getElementById('avgScore').textContent = `Average Score: ${wins > 0 ? (totalGuesses / wins).toFixed(1) : '--'}`;
-    }
+    wins++;
+    totalGuesses += score;
+    document.getElementById('wins').textContent = `Total wins: ${wins}`;
+    document.getElementById('avgScore').textContent = `Average Score: ${wins > 0 ? (totalGuesses / wins).toFixed(1) : '--'}`;
     // Update leaderboard
     let leaderboard = document.querySelectorAll('li[name="leaderboard"]');
     for (let i = 0; i < 3; i++) {
