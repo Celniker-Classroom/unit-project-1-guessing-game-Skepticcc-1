@@ -22,3 +22,4 @@
 - Enhances visual appeal and user preference.
 
 These features improve the game's user interface, usability, and engagement beyond the basic requirements, making it more polished and fun to play.
+Added the dark mode toggle feature
