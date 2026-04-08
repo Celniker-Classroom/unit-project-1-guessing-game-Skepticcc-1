@@ -112,7 +112,7 @@ function makeGuess() {
     }
     guessInput.value = '';
 }
-
+//give up tool
 // Give up function
 function giveUp() {
     updateScore(currentRange);
