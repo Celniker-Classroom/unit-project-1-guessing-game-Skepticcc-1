@@ -160,3 +160,4 @@ function reset() {
     document.querySelectorAll('input[name="level"]').forEach(radio => radio.disabled = false);
 }
 
+//reset function end
