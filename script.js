@@ -28,7 +28,7 @@ function getDaySuffix(day) {
         default: return 'th';
     }
 }
-
+//fnction for the date and time display
 // Function to format time
 function time() {
     let now = new Date();
