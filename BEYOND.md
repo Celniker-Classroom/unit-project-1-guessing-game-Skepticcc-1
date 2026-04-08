@@ -22,7 +22,3 @@
 - Enhances visual appeal and user preference.
 
 These features improve the game's user interface, usability, and engagement beyond the basic requirements, making it more polished and fun to play.
-Added the dark mode toggle feature
-Styled and added visual design like colors etc for better interactivity
-Added score quality feedback as an engagement feature through JS
-Input validations was buggy so i fixed it for example if i just inputed the number 1 it would tell me im correct when im not
