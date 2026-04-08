@@ -5,7 +5,7 @@ if (playerName) {
 } else {
     playerName = "Player";
 }
-
+// variables for DOM elements
 // Global variables for game state
 let answer = null;
 let guessCount = 0;
