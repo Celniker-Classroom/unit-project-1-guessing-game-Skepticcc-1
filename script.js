@@ -4,7 +4,7 @@ if (playerName) {
     playerName = playerName.charAt(0).toUpperCase() + playerName.slice(1).toLowerCase();
 } else {
     playerName = "Player";
-}
+} //player prompt and name formatting
 // variables for DOM elements
 // Global variables for game state
 let answer = null;
