@@ -159,3 +159,5 @@ function reset() {
     document.getElementById('playBtn').disabled = false;
     document.querySelectorAll('input[name="level"]').forEach(radio => radio.disabled = false);
 }
+
+//leaderboard function i added during the class
