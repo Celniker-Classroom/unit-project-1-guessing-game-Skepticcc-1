@@ -160,5 +160,3 @@ function reset() {
     document.querySelectorAll('input[name="level"]').forEach(radio => radio.disabled = false);
 }
 
-//leaderboard function i added during the class
-//Used the getelementid function to retrvie inputs and outputs
