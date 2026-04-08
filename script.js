@@ -17,7 +17,7 @@ let roundTimes = [];
 let fastestTime = Infinity;
 let totalTime = 0;
 let currentRange = 0;
-
+//day sufix
 // Function to get day suffix
 function getDaySuffix(day) {
     if (day > 3 && day < 21) return 'th';
