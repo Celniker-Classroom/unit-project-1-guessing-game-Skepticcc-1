@@ -42,7 +42,7 @@ function time() {
     let seconds = now.getSeconds().toString().padStart(2, '0');
     return `${month} ${day}${suffix}, ${year} ${hours}:${minutes}:${seconds}`;
 }
-
+//live time updates
 // Start live time update
 setInterval(() => {
     document.getElementById('date').textContent = time();
